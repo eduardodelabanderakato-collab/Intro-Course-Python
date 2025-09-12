@@ -1,3 +1,21 @@
 {
   "python.analysis.autoImportCompletions": true
+
+}
+"highlight.regexes": {
+    "!!red (.+)": {
+        "filterFileRegex": ".*",
+        "decorations": [
+            {
+                "color": "#FF0000"  // red
+            }
+        ]
+    },
+    "!!blue (.+)": {
+        "decorations": [
+            {
+                "color": "#00BFFF"  // blue
+            }
+        ]
+    }
 }
